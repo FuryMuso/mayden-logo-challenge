@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+.logo {
+}
+
+.text {
+	float: left;
+}
+
+h1 {
+	width: 100%;
+	font-size: 100px;
+	font-family: 'Raleway', Arial sans-serif;
+	color: #A5A5A5;
+	position: relative;
+	bottom: 50px;
+	padding-right: 5px;
+	z-index: 40;
+}
+
+.colorBoxes {
+	width: 22%;
+	overflow: hidden;
+}
+
+.greenMain {
+	width: 100px;
+	height: 180px;
+	background-color: #94BA66;
+	z-index: -1;
+	position: relative;
+	top: 1px;
+}
+
+.greenTop {
+    width: 32px;
+    height: 32px;
+    background-color: #94BA66;
+    position: relative;
+    left: 71px;
+    z-index: 1;
+    border-radius: 85px;
+}
+
+.orange {
+	width: 60px;
+	height: 69px;
+	background-color: #F27324;
+	position: relative;
+	top: 13px;
+	left: 67px;
+}
+
+.teal {
+	width: 150px;
+	height: 180px;
+	background-color: #298FB0;
+	position: relative;
+	left: 57px;
+	z-index: -2;
+	bottom: 32px;
+}
+
+.blue {
+	width: 100px;
+	height: 80px;
+	background-color: #295074;
+	position: relative;
+	top: 106px;
+	left: 50px;
+}
+
+h2 {
+	width: 100%;
+	font-family: 'Raleway', Arial sans-serif;
+	font-size: 260px;
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	bottom: 309px;
+	left: 13px;
+}
+
+.boxes {
+	float: left;
+	position: absolute;
+}
+
+.circle {
+	border-radius: 200px;
+	width: 290px;
+	height: 290px;
+	background-color: none;
+	border: 50px solid #FFFFFF;
+	z-index: 1;
+	position: relative;
+	bottom: 83px;
+	right: 45px;
+}
+
+.curve {
+	width: 49px;
+	height: 37px;
+	border-radius: 100px 0px 0px 0px;
+	background-color: #FFFFFF;
+	position: relative;
+	left: 71px;
+	z-index: 2;
+	top: 2px;
+}
